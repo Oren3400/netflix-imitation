@@ -1,0 +1,153 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Architects Daughter", cursive;
+}
+
+#copyrights {
+  color: white;
+  background-color: black;
+}
+
+#backgroundImage {
+  width: 100%;
+  height: 100vh;
+  background-image: url("netflixBackground.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  box-shadow: inset 0px 0px 50px 50px;
+  text-align: center;
+}
+
+#backgroundImage h1 {
+  color: white;
+  font-size: 80px;
+}
+
+#backgroundImage div {
+  color: white;
+  padding-top: 20vh;
+  font-size: 50px;
+}
+
+#backgroundImage #welcome {
+  margin-top: 1vh;
+}
+
+#join {
+  background-color: red;
+  color: white;
+  border-radius: 10px;
+  font-size: x-large;
+  padding: 20px 50px;
+  border: none;
+  margin-top: 10vh;
+  /* margin-bottom: 40px; */
+}
+
+#join:hover {
+  background-color: darkred;
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.description {
+  background-color: black;
+  color: white;
+  width: 100%;
+  padding: 20px 30px;
+}
+
+.row {
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+.row img {
+  width: 80%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.column {
+  float: left;
+  padding: 20px;
+  box-sizing: border-box;
+  line-height: 3em;
+  width: 50%;
+}
+
+.column-rtl {
+  float: right;
+  padding: 20px;
+  box-sizing: border-box;
+  line-height: 3em;
+  width: 50%;
+}
+
+@media screen and (max-width: 1100px) {
+  .column {
+    width: 100%;
+  }
+
+  .column-rtl {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 1500px) {
+  .row img {
+    width: 40%;
+  }
+}
+
+.accordion {
+  background-color: #282828;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+}
+
+.active,
+.accordion:hover {
+  background-color: #585858;
+}
+
+.panel {
+  padding: 0 18px;
+  display: none;
+  background-color: #282828;
+  overflow: hidden;
+}
+
+#accordionContainer {
+  width: 70%;
+  margin: 50px auto;
+}
+
+#welcome {
+  color: red;
+  font-size: 50px;
+  text-align: center;
+  margin: 100px;
+}
+
+@media screen and (min-width: 200px) and (max-width: 1000px) {
+  #welcome {
+    margin: 10px;
+    margin-top: 20vh;
+  }
+}

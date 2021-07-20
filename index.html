@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="./style.css" />
+    <title>Netflix</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+      integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+      crossorigin="anonymous"
+    />
+    <link rel="icon" href="movieIcon.png" type="image/icon type" />
+  </head>
+
+  <body>
+    <div id="copyrights">Made by Oren Shmuel</div>
+    <div id="backgroundImage">
+      <div>welcome back</div>
+      <h1>Unlimited movies</h1>
+
+      <a href="joinPage.html">
+        <button id="join" onclick="check()">
+          Join us <i class="fas fa-video"></i>
+        </button>
+      </a>
+    </div>
+
+    <div class="row">
+      <div class="column">
+        <h1>Enjoy on your tv</h1>
+        <div>Watch on smart TVs</div>
+      </div>
+      <div class="column">
+        <img src="./tvGif.gif" alt="tv gif" />
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="column-rtl">
+        <h1>Download your shows</h1>
+        <div>Save your favorites easily</div>
+      </div>
+      <div class="column">
+        <img src="./DownloadGif.gif" alt="tv gif" />
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="column">
+        <h1>Watch everywhere</h1>
+        <div>Stream unlimited movies</div>
+      </div>
+      <div class="column">
+        <img src="./sonicGif.gif" alt="tv gif" />
+      </div>
+    </div>
+    <div class="row">
+      <h1>Questions</h1>
+
+      <div id="accordionContainer">
+        <button class="accordion">What is Netflix?</button>
+        <div class="panel">
+          <p>Netflix is a streaming service</p>
+        </div>
+
+        <button class="accordion">How much Netflix costs?</button>
+        <div class="panel">
+          <p>Im feeling large today so you can have it for free ;-)</p>
+        </div>
+
+        <button class="accordion">Where i can watch?</button>
+        <div class="panel">
+          <p>Watch anywhere</p>
+        </div>
+
+        <button class="accordion">How can i cancel?</button>
+        <div class="panel">
+          <p>anytime you want</p>
+        </div>
+
+        <button class="accordion">What can i watch?</button>
+        <div class="panel">
+          <p>Sonic in Action</p>
+        </div>
+      </div>
+    </div>
+    <script type="text/javascript" src="main.js"></script>
+  </body>
+</html>
